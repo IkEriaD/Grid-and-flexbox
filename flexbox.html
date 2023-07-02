@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex box</title>
+</head>
+<body style="padding-bottom: 1000px;">
+
+  <div style="display: flex; 
+  flex-direction: row;
+  ">
+    <div style="background-color: lightblue;">div 1 text</div>
+    <div style="background-color: lightpink;">div 2 <p>text</p></div>
+  </div>
+
+  <div style="display: flex; 
+  flex-direction: row;
+  margin-top: 30px;
+  ">
+    <div style="background-color: lightblue; width: 100px;">100px</div>
+    <div style="background-color: lightpink; flex: 1;">flex 1</div>
+  </div>
+  
+
+<div style="margin-top: 30px; display: flex; flex-direction: row;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; flex: 1;">flex 1</div>
+</div>
+
+<div style="margin-top: 30px; display: flex; flex-direction: row;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; flex: 1;">flex 1</div>
+  <div style="background-color: lightblue; flex: 2;">flex 2</div>  
+</div>
+
+<div style="margin-top: 30px;
+ display: flex; 
+ flex-direction: row;
+  height: 70px; 
+  border: 1px solid gray;
+  justify-content: center;">
+  
+
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>  
+</div>
+
+<div style="margin-top: 30px;
+ display: flex; 
+ flex-direction: row;
+  height: 70px; 
+  border: 1px solid gray;
+  justify-content: space-between;">
+  
+
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>  
+</div>
+
+<div style="margin-top: 30px;
+ display: flex; 
+ flex-direction: row;
+  height: 70px; 
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;">
+  
+
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>  
+</div>
+
+
+
+
+<div class="navbar">
+    <div style="background-color: lightgreen;">LOGO</div>
+
+    <ul>
+        <li><a href="#" style="background-color: lightblue;">Home</a></li>
+        <li><a href="#" style="background-color: lightpink;">Menu</a></li>
+        <li><a href="#" style="background-color: lightseagreen;">Contact</a></li>
+    </ul>
+</div> 
+
+<style>
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 70%;
+    position: fixed;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .3);
+    padding: 0 15%;
+  }
+
+  .navbar ul {
+    display: flex;
+   list-style-type: none;
+  }
+
+  ul li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+.navbar ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-family: cursive;
+}
+
+
+</style>
+</body>
+</html>
